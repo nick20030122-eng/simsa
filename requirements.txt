@@ -1,0 +1,18 @@
+# code/app.py 배포용 (Python 3.11+ 권장)
+# 설치: pip install -r requirements.txt
+# 실행: streamlit run app.py
+
+streamlit>=1.32.0
+plotly>=5.18.0
+python-dotenv>=1.0.0
+pillow>=10.0.0
+
+# PDF / PPT (lib/analysis.py)
+pypdf>=4.0.0
+python-pptx>=1.0.0
+
+# LLM (lib/llm.py, lib/schema.py)
+pydantic>=2.7.0
+langchain-core>=0.3.0
+langchain-openai>=0.2.0
+langchain-anthropic>=0.2.0
